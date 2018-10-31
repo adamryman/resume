@@ -6,8 +6,11 @@ BUILD_DIR=build/
 all: builddir pdf html
 
 latex:
-	pandoc --template templates/header.latex --variable geometry="margin=0.5in" -o $(BUILD_DIR)header.latex $(HEADER)
-	pandoc --template templates/body.latex --variable geometry="top=1in, bottom=1.5in, left=2in, right=2in" -V geometry="landscape" -o $(BUILD_DIR)body.latex $(BODY)
+	pandoc --template templates/header.latex --variable geometry="margin=0.6in" -o $(BUILD_DIR)header.latex $(HEADER)
+	# landscape
+	#pandoc --template templates/body.latex --variable geometry="top=3in, bottom=1.5in, left=0.5in, right=0.5in" -V geometry="landscape" -o $(BUILD_DIR)body.latex $(BODY)
+	# not landscape
+	pandoc --template templates/body.latex --variable geometry="top=5.5in, bottom=1.5in, left=0.6in, right=0.6in"  -o $(BUILD_DIR)body.latex $(BODY)
 
 pdf: latex
 	pdflatex -jobname=$(BUILD_DIR)header $(BUILD_DIR)header.latex
