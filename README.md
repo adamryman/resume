@@ -2,7 +2,7 @@
 Resume -- Adam Ryman
 ======================
 
-* WORK IN PROGRESS*
+**WORK IN PROGRESS**
 
 This repository is based on [Leland Batey's resume repository](https://github.com/lelandbatey/resume/).
 
