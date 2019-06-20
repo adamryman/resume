@@ -10,7 +10,8 @@ latex:
 	# landscape
 	#pandoc --template templates/body.latex --variable geometry="top=3in, bottom=1.5in, left=0.5in, right=0.5in" -V geometry="landscape" -o $(BUILD_DIR)body.latex $(BODY)
 	# not landscape
-	pandoc --template templates/body.latex --variable geometry="top=5.5in, bottom=1.5in, left=0.6in, right=0.6in"  -o $(BUILD_DIR)body.latex $(BODY)
+	# NOTE: edit top for moving body text
+	pandoc --template templates/body.latex --variable geometry="top=6.0in, bottom=1.5in, left=0.6in, right=0.6in"  -o $(BUILD_DIR)body.latex $(BODY)
 
 pdf: latex
 	pdflatex -jobname=$(BUILD_DIR)header $(BUILD_DIR)header.latex
