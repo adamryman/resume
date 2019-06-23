@@ -2,8 +2,8 @@ TOP___MARGIN=0.35
 LEFT__MARGIN=0.60
 RIGHT_MARGIN=0.60
 
-HEADER_HEIGHT=5.35
-BODY_HEIGHT=3.85
+HEADER_HEIGHT=5.45
+BODY_HEIGHT=3.75
 
 HEADER_TOP=$(TOP___MARGIN)
 
@@ -22,6 +22,14 @@ STEPS_DIR=build/steps/
 
 all: builddir pdf html resume
 
+latextemplate:
+	#
+	# Combine latex preamble, template, and postamble
+	#
+	cat templates/base/preamble.latex templates/header.latex templates/base/postamble.latex > $(STEPS_DIR)header_template.latex
+	cat templates/base/preamble.latex templates/body.latex templates/base/postamble.latex > $(STEPS_DIR)body_template.latex
+	cat templates/base/preamble.latex templates/footer.latex templates/base/postamble.latex > $(STEPS_DIR)footer_template.latex
+
 latex: latextemplate
 	#
 	# Create latex file with markdown context
@@ -30,13 +38,6 @@ latex: latextemplate
 	pandoc --quiet --template $(STEPS_DIR)body_template.latex   --variable geometry=$(BODY___GEOMETRY) -o $(STEPS_DIR)body.latex $(BODY)
 	pandoc --quiet --template $(STEPS_DIR)footer_template.latex --variable geometry=$(FOOTER_GEOMETRY) -o $(STEPS_DIR)footer.latex $(FOOTER)
 
-latextemplate:
-	#
-	# Combine latex preamble, template, and postamble
-	#
-	cat templates/base/preamble.latex templates/header.latex templates/base/postamble.latex > $(STEPS_DIR)header_template.latex
-	cat templates/base/preamble.latex templates/body.latex templates/base/postamble.latex > $(STEPS_DIR)body_template.latex
-	cat templates/base/preamble.latex templates/footer.latex templates/base/postamble.latex > $(STEPS_DIR)footer_template.latex
 
 pdf: latex
 	#
@@ -52,6 +53,10 @@ resume: pdf
 	#
 	pdftk $(STEPS_DIR)header.pdf background $(STEPS_DIR)body.pdf output $(STEPS_DIR)1.pdf
 	pdftk $(STEPS_DIR)1.pdf background $(STEPS_DIR)footer.pdf output $(BUILD_DIR)resume.pdf
+	#
+	# Cleanup
+	#
+	rm $(STEPS_DIR)*
 
 
 html:
