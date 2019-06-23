@@ -18,7 +18,7 @@
 \titlespacing*{\itemize}{0pt}{0pt}{0pt}
 % Markdown: plain text
 \titlespacing*{\paragraph}{0pt}{0pt}{0pt}
-% Markdown: -
+% Markdown: ???
 \titlespacing*{\label}{0pt}{10pt}{10pt}
 
 \setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
