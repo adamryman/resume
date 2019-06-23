@@ -1,6 +1,18 @@
-HEADER_GEOMETRY="top=0.60in, bottom=0.60in, left=0.60in, right=0.60in"
-BODY___GEOMETRY="top=5.95in, bottom=1.00in, left=0.60in, right=0.60in"
-FOOTER_GEOMETRY="top=10.0in, bottom=0.00in, left=0.60in, right=0.60in"
+TOP___MARGIN=0.35
+LEFT__MARGIN=0.60
+RIGHT_MARGIN=0.60
+
+HEADER_HEIGHT=5.35
+BODY_HEIGHT=3.85
+
+HEADER_TOP=$(TOP___MARGIN)
+
+BODY___TOP=$(shell echo "$(HEADER_HEIGHT) + $(HEADER_TOP)" | bc)
+FOOTER_TOP=$(shell echo "$(BODY_HEIGHT) + $(BODY___TOP) + $(HEADER_TOP)" | bc)
+
+HEADER_GEOMETRY="top=$(HEADER_TOP)in, bottom=0.00in, left=$(LEFT__MARGIN)in, right=$(RIGHT_MARGIN)in"
+BODY___GEOMETRY="top=$(BODY___TOP)in, bottom=0.00in, left=$(LEFT__MARGIN)in, right=$(RIGHT_MARGIN)in"
+FOOTER_GEOMETRY="top=$(FOOTER_TOP)in, bottom=0.00in, left=$(LEFT__MARGIN)in, right=$(RIGHT_MARGIN)in"
 
 BODY=body.md
 HEADER=header.md
