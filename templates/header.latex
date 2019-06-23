@@ -6,12 +6,20 @@
 \titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
 \titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
 
+% \titlespacing*{\foobar}{left_margin}{top_margin}{bottom_margin}
+
+% Markdown: #
 \titlespacing*{\section}{0pt}{10pt}{0pt}
-\titlespacing*{\label}{0pt}{10pt}{10pt}
+% Markdown: ##
 \titlespacing*{\subsection}{0pt}{15pt}{10pt}
+% Markdown: ###
 \titlespacing*{\subsubsection}{0pt}{15pt}{5pt}
+% Markdown: -
 \titlespacing*{\itemize}{0pt}{0pt}{0pt}
+% Markdown: plain text
 \titlespacing*{\paragraph}{0pt}{0pt}{0pt}
+% Markdown: -
+\titlespacing*{\label}{0pt}{10pt}{10pt}
 
 \setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
 
