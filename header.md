@@ -1,13 +1,12 @@
 # Adam Ryman
 
+# Backend Developer && CI/CD Enthusiast
+
 adamryman@gmail.com
 
 585-484-7669
 
 [github.com/adamryman](https://github.com/adamryman)
-
-
-## Backend Developer && CI/CD Enthusiast && Value Creator
 
 ## Skills
 - Languages: Go (4 years), PHP (3 year), Bash (5 years), Java, Python, Javascript, HTML, CSS, C, C#, Verilog
