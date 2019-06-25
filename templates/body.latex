@@ -3,25 +3,25 @@
 
 % Increase the font size of sections
 \titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}
-\titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
-\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
+\titleformat{\subsection}{\normalfont\LARGE\bfseries\filcenter}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries\filcenter}{\thesection}{}{}
 
 % \titlespacing*{\foobar}{left_margin}{top_margin}{bottom_margin}
 
 % Markdown: #
 \titlespacing*{\section}{0pt}{10pt}{0pt}
 % Markdown: ##
-\titlespacing*{\subsection}{0pt}{15pt}{10pt}
+\titlespacing*{\subsection}{0pt}{10pt}{7pt}
 % Markdown: ###
-\titlespacing*{\subsubsection}{0pt}{15pt}{5pt}
+\titlespacing*{\subsubsection}{0pt}{10pt}{4pt}
 % Markdown: -
-\titlespacing*{\itemize}{0pt}{0pt}{0pt}
+\titlespacing*{\itemize}{0pt}{5pt}{5pt}
 % Markdown: plain text
 \titlespacing*{\paragraph}{0pt}{0pt}{0pt}
 % Markdown: ???
 \titlespacing*{\label}{0pt}{10pt}{10pt}
 
-\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=*}
 
 \begin{document}
 $if(title)$
@@ -45,6 +45,6 @@ $if(toc)$
 }
 $endif$
 
-\begin{multicols}{2}
+\begin{multicols*}{2}
 $body$
-\end{multicols}
+\end{multicols*}

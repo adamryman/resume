@@ -2,8 +2,6 @@
 Resume -- Adam Ryman
 ======================
 
-**WORK IN PROGRESS**
-
 This repository is based on [Leland Batey's resume repository](https://github.com/lelandbatey/resume/).
 
 ## Requirements and Dependencies
@@ -20,3 +18,11 @@ This workflow assumes it is on the Linux platform. Additionally, this workflow r
 
 To build, run `make` in this directory. The output files will be in the newly created `build/` directory.
 
+## LaTeX notes
+
+Column break
+
+```
+\vfill\null
+\columnbreak
+```
