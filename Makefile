@@ -2,8 +2,8 @@ TOP___MARGIN=0.35
 LEFT__MARGIN=0.60
 RIGHT_MARGIN=0.60
 
-HEADER_HEIGHT=5.20
-BODY_HEIGHT=3.85
+HEADER_HEIGHT=2.55
+BODY_HEIGHT=6.40
 
 HEADER_TOP=$(TOP___MARGIN)
 
@@ -11,7 +11,7 @@ BODY___TOP=$(shell echo "$(HEADER_HEIGHT) + $(HEADER_TOP)" | bc)
 FOOTER_TOP=$(shell echo "$(BODY_HEIGHT) + $(BODY___TOP) + $(HEADER_TOP)" | bc)
 
 HEADER_GEOMETRY="top=$(HEADER_TOP)in, bottom=0.00in, left=$(LEFT__MARGIN)in, right=$(RIGHT_MARGIN)in"
-BODY___GEOMETRY="top=$(BODY___TOP)in, bottom=0.00in, left=$(LEFT__MARGIN)in, right=$(RIGHT_MARGIN)in"
+BODY___GEOMETRY="top=$(BODY___TOP)in, bottom=1.60in, left=$(LEFT__MARGIN)in, right=$(RIGHT_MARGIN)in"
 FOOTER_GEOMETRY="top=$(FOOTER_TOP)in, bottom=0.00in, left=$(LEFT__MARGIN)in, right=$(RIGHT_MARGIN)in"
 
 BODY=body.md
@@ -34,7 +34,7 @@ latex: latextemplate
 	#
 	# Create latex file with markdown context
 	#
-	pandoc --quiet --template $(STEPS_DIR)header_template.latex --variable geometry=$(HEADER_GEOMETRY) -o $(STEPS_DIR)header.latex $(HEADER)
+	pandoc --quiet --template $(STEPS_DIR)header_template.latex --variable geometry=$(HEADER_GEOMETRY) -o $(STEPS_DIR)header.latex $(HEADER) --from markdown+raw_attribute
 	pandoc --quiet --template $(STEPS_DIR)body_template.latex   --variable geometry=$(BODY___GEOMETRY) -o $(STEPS_DIR)body.latex $(BODY)
 	pandoc --quiet --template $(STEPS_DIR)footer_template.latex --variable geometry=$(FOOTER_GEOMETRY) -o $(STEPS_DIR)footer.latex $(FOOTER)
 
@@ -56,7 +56,6 @@ resume: pdf
 	#
 	# Cleanup
 	#
-	rm $(STEPS_DIR)*
 
 
 html:

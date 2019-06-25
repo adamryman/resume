@@ -2,7 +2,7 @@
 \setlength\columnsep{40pt}
 
 % Increase the font size of sections
-\titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}
+\titleformat{\section}{\normalfont\Huge\bfseries\filcenter}{}{}{}
 \titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
 \titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
 
