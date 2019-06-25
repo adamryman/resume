@@ -39,7 +39,7 @@
 - Production usage at Tune and Glympse
 - Active contributions through pull requests and issues
 
-### Chief Operation Officer
+### Chief Operations Officer
 
 ***StudentRND - 501c3*** | *Bellevue, WA* | 2010 - 2013
 
