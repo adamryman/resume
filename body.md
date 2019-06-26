@@ -8,27 +8,26 @@
 
 ### Software Development Engineer
 
-***Branch && Tune*** | *Seattle, WA* | 2016 - 2019
+***Tune && Branch*** | *Seattle, WA* | 2016 - 2019
 
 - **Software Engineer - Branch Migration**
-	- Facilitated seamless customer experience in transition to Branch by migrating millions of templated webhooks
-	- Enabled backwards compatibility by implemented tooling for migrating webhook templates between Tune's and Branch's domain specific languages
+	- Facilitated seamless customer experience in transition to Branch by implemented tooling for migrating webhook templates between Tune's and Branch's domain specific languages
 	- Ensured identical customer experience by automating Tune webhook exports using CI/CD tooling for data comparisons
-	- Responsible for mirroring of billions of requests per day with less than 0.1% error rate
+	- Responsible for mirroring of billions of requests per day with less than 0.1% error rate through both Branch and Tune systems
 - **SDE II - Tune Data Core**
 	- Reduced cost by migrating production services from over-previsioned reserved hardware to autoscaling Amazon ECS
 	- Improved customer satisfaction by hunting down and fixed customer issues in multi-service pipelines
 	- Contributed to reliability by being on-call for 30K rps distributed system with regular operational overviews.
-	- Reduced developer frustration by decreasing time to complete CI/CD jobs for build, test, and deploy utilizing caching, docker image optimization, and multi stage pipelines.
+	- Improved developer productivity by decreasing time to complete CI/CD jobs for build, test, and deploy utilizing caching, docker image optimization, and multi stage pipelines.
 - **SDE I - Tune Data Core**
 	- Increased development throughput by containerizing dev environment for services and infrastructure in Go & PHP
 	- Aligned terminology within engineering teams with documentation and classes
 - **SDE I - Tune Research & Development**
 	- Implemented initial CI/CD for build and test on PR, deploying to staging, and deploying to production
+	- Rapidly created new services utilizing **truss**
 	- Scaled new multi-service product from 1 host to autoscaling on Amazon ECS
-	- Rapidly created new services utilizing **truss**.
 - **Intern - Tune Research & Development**
-	- Decreased development time by Co-authoring **truss**, a code generation tool.
+	- Decreased development time by Co-authoring **truss**, a code generation tool
 
 ### Co-Creator && Key Contributor
 
