@@ -6,12 +6,12 @@
 
 ## Experience
 
-### Software Development Engineer
+### - Software Development Engineer
 
-***Tune && Branch*** | *Seattle, WA* | 2016 - 2019
+\-- ***Tune && Branch*** | *Seattle, WA* | 2016 - 2019
 
 - **Software Engineer - Branch Migration**
-	- Facilitated seamless customer experience in transition to Branch by implementing tooling for migrating webhook templates between Tune's and Branch's domain specific languages.
+	- Facilitated seamless experience for customers transitioning to Branch by implementing tooling for migrating webhook templates between Tune's and Branch's domain specific languages.
 	- Ensured identical customer experience by automating Tune webhook exports using CI/CD tooling for data comparisons.
 	- Responsible for mirroring of billions of requests per day with less than 0.1% error rate through both Branch and Tune systems.
 - **SDE II - Tune Data Core**
@@ -29,18 +29,18 @@
 - **Intern - Tune Research & Development**
 	- Decreased development time by co-authoring **truss**, a code generation tool.
 
-### Co-Creator && Key Contributor
+### - Co-Creator && Key Contributor
 
-***truss*** | *[github.com/metaverse/truss](https://github.com/metaverse/truss)* | 2016 - Current
+\-- ***truss*** | *[github.com/metaverse/truss](https://github.com/metaverse/truss)* | 2016 - Current
 
 - *golang*, *protobuf/gRPC*.
 - Rapidly build gRPC&HTTP 1.1/JSON services by generating messages and encode/decode logic from protobuf/gRPC definitions.
 - Production usage at Tune and Glympse.
 - Active contributions through pull requests and issues.
 
-### Chief Operations Officer
+### - Chief Operations Officer
 
-***StudentRND - 501c3*** | *Bellevue, WA* | 2010 - 2013
+\-- ***StudentRND - 501c3*** | *Bellevue, WA* | 2010 - 2013
 
 - Networked with professionals in industry to develop resources for students to design, manufacture, test, & sell experimental products.
 - Grew programming marathon, CodeDay, from grassroots to national event.
@@ -55,7 +55,7 @@
 ## Education
 
 ### Electrical Engineering B.S.
-***University of Washington*** | *Seattle, WA* | 2015
+ ***University of Washington*** | *Seattle, WA* | 2015
 
 ### Internships
 

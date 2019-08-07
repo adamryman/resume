@@ -1,10 +1,10 @@
 % Increase the width of the central column seperator
-\setlength\columnsep{45pt}
+\setlength\columnsep{40pt}
 
 % Increase the font size of sections
 \titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}
 \titleformat{\subsection}{\normalfont\LARGE\bfseries\filcenter}{\thesection}{}{}
-\titleformat{\subsubsection}{\normalfont\large\bfseries\filcenter}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
 
 % \titlespacing*{\foobar}{left_margin}{top_margin}{bottom_margin}
 
