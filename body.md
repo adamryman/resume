@@ -1,8 +1,8 @@
 ## Skills
-- Languages: Go (4 years), PHP (3 year), Bash (6 years), Java, Python, Javascript, HTML, CSS, C, C#, Verilog
+- Languages: Go (5 years), PHP (3 year), Bash (6 years), Java, Python, Javascript, HTML, CSS, C, C#, Verilog
 - CI/CD for several teams. Gitlab-CI, Jenkins, Circle-CI, Travis-CI.
 - AWS ECS, EC2, ELB/ALB, S3, Route53, EMR, etc
-- Utilizing Gitlab, Terraform, ELK, Jira, Confluence
+- Utilizing Docker, Gitlab, Terraform, Kafka, Kubernetes, Jira, Confluence
 
 ## Experience
 
