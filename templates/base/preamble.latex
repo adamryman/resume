@@ -1,5 +1,5 @@
 % preamble for all templates
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\documentclass[11pt]{$documentclass$}
 $if(fontfamily)$
 \usepackage{$fontfamily$}
 $else$
@@ -117,8 +117,6 @@ $endif$
 \usepackage{multicol}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\providecommand{\tightlist}{%
-\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 $if(numbersections)$
 \setcounter{secnumdepth}{5}

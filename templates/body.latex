@@ -23,6 +23,11 @@
 
 \setlist[itemize]{noitemsep, topsep=1pt, leftmargin=*}
 
+% tightlist is created by markdown
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{3pt}\setlength{\parskip}{0pt}}
+
+
 \begin{document}
 $if(title)$
 \maketitle

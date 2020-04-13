@@ -3,17 +3,17 @@
 
 % Increase the font size of sections
 \titleformat{\section}{\normalfont\Huge\bfseries\filcenter}{}{}{}
-\titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
-\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
+\titleformat{\subsection}{\normalfont\huge\bfseries}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
 
 % \titlespacing*{\foobar}{left_margin}{top_margin}{bottom_margin}
 
 % Markdown: #
 \titlespacing*{\section}{0pt}{0pt}{5pt}
 % Markdown: ##
-\titlespacing*{\subsection}{0pt}{8pt}{8pt}
+\titlespacing*{\subsection}{0pt}{12pt}{12pt}
 % Markdown: ###
-\titlespacing*{\subsubsection}{0pt}{15pt}{5pt}
+\titlespacing*{\subsubsection}{0pt}{12pt}{5pt}
 % Markdown: -
 \titlespacing*{\itemize}{0pt}{0pt}{0pt}
 % Markdown: plain text
@@ -21,7 +21,11 @@
 % Markdown: ???
 \titlespacing*{\label}{0pt}{0pt}{0pt}
 
-\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=25pt}
+
+% tightlist is created by markdown
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{3pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
 $if(title)$
