@@ -6,6 +6,16 @@
 
 ## Experience
 
+### - Software Engineer
+
+\-- ***Xinova*** | *Seattle, WA* | Jan 2020 - March 2020
+
+- Investigated and reduced costs on Google Cloud Platform utilizing labels and scaling.
+- Proposed and implemented CI/CD and environment work-flow for early stage product leveraging Github Actions and Jenkins.
+- Managed technical debt through working with external support engineers for fringe in-house data analytics.
+- Decommissioned old service orientated architecture in favor of the more agile monolithic architecture while product market fit is being developed.
+- Migrated service functionality from Golang services to Python
+
 ### - Software Development Engineer
 
 \-- ***Tune && Branch*** | *Seattle, WA* | 2016 - 2019
@@ -50,7 +60,6 @@
     - Since 2011, more than 35,000 students have attended over 350 CodeDays across the US and Canada.
 - Raised over $50k to operate non-profit endeavors.
 - Organized regular workshops teaching 30 or more students how to design & build things using laser cutters, 3D printers, electronic circuity, & various SDKs.
-
 
 ## Education
 
