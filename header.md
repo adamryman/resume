@@ -7,31 +7,42 @@
 
 < **adamryman@gmail.com** --- [github.com/adamryman](https://github.com/adamryman) --- **585-484-7669** >
 
+--- --- Seeking *compassionate* work. --- ---
+
 ```{=latex}
 \end{center}
 ```
 
 ## Skills
 - Languages: Go (5 years), PHP (3 year), Bash (6 years), Java, Python, Javascript, HTML, CSS, C, C#, Verilog
-- CI/CD for several teams. Gitlab-CI, Jenkins, Circle-CI, Travis-CI.
-- AWS ECS, EC2, ELB/ALB, S3, Route53, EMR, etc
+- CI/CD for several teams. Gitlab-CI, Jenkins, Circle-CI, Travis-CI, Azure devops.
+- AWS ECS, EC2, ELB/ALB, S3, Route53, EMR; Google Cloud, Compute, App Engine, Storage, etc.
 - Utilizing Docker, Gitlab, Terraform, Kafka, Kubernetes, Jira, Confluence
 
 ## Experience
 
-### - Software Engineer - Contractor
+### Software Developer
 
-\-- ***Xinova*** | *Seattle, WA* | Jan 2020 - March 2020
+***Volkswagen Automotive Cloud*** | *Remote* | July 2020 - Current
+
+- Facilitated developer productivity by reducing miscommunication.
+	- Provided structure for developers to define shared terminology.
+	- Clarified goals with key stakeholders; Teams, managers, and directories.
+- Fixed bugs and security vulnerabilities Utilizing Azure, Azure Dev Ops, .netFramework, and .netCore
+
+### Software Engineer
+
+***Xinova*** | *Seattle, WA* | **Contracted:** Jan 2020 - March 2020
 
 - Investigated and reduced costs on Google Cloud Platform utilizing labels and scaling.
 - Proposed and implemented CI/CD and environment work-flow for early stage product leveraging Github Actions and Jenkins.
 - Managed technical debt through working with external support engineers for fringe in-house data analytics.
-- Decommissioned old service orientated architecture in favor of the more agile monolithic architecture while product market fit is being developed.
+- Decommissioned old service-oriented architecture in favor of the more agile monolithic architecture while product market fit is being developed.
 - Migrated service functionality from Golang services to Python
 
-### - Software Development Engineer
+### Software Development Engineer
 
-\-- ***Tune && Branch*** | *Seattle, WA* | 2016 - 2019
+***Tune && Branch*** | *Seattle, WA* | 2016 - 2019
 
 - **Software Engineer - Branch Migration**
 	- Facilitated seamless experience for customers transitioning to Branch by implementing tooling for migrating webhook templates between Tune's and Branch's domain specific languages.
@@ -52,18 +63,18 @@
 - **Intern - Tune Research & Development**
 	- Decreased development time by co-authoring **truss**, a code generation tool.
 
-### - Co-Creator && Key Contributor
+### Co-Creator && Key Contributor
 
-\-- ***truss*** | *[github.com/metaverse/truss](https://github.com/metaverse/truss)* | 2016 - Current
+***truss*** | *[github.com/metaverse/truss](https://github.com/metaverse/truss)* | 2016 - Current
 
 - *golang*, *protobuf/gRPC*.
 - Rapidly build gRPC&HTTP 1.1/JSON services by generating messages and encode/decode logic from protobuf/gRPC definitions.
 - Production usage at Tune and Glympse.
 - Active contributions through pull requests and issues.
 
-### - Chief Operations Officer
+### Chief Operations Officer
 
-\-- ***StudentRND - 501c3*** | *Bellevue, WA* | 2010 - 2013
+***StudentRND - 501c3*** | *Bellevue, WA* | 2010 - 2013
 
 - Networked with professionals in industry to develop resources for students to design, manufacture, test, & sell experimental products.
 - Grew programming marathon, CodeDay, from grassroots to national event.
@@ -79,7 +90,7 @@
 ### Electrical Engineering B.S.
  ***University of Washington*** | *Seattle, WA* | 2015
 
-### Internships
+## Internships
 
 - **Software Engineering Intern** (SDK/Java/Node/C#)
 	- ***Splunk*** | *Seattle, WA* | June 2015 - Sept 2015

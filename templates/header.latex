@@ -4,28 +4,31 @@
 % Increase the font size of sections
 \titleformat{\section}{\normalfont\Huge\bfseries\filcenter}{}{}{}
 \titleformat{\subsection}{\normalfont\huge\bfseries}{\thesection}{}{}
-\titleformat{\subsubsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\LARGE\scshape}{\thesection}{}{}
+%\titleformat{\subsubsection}{\normalfont\LARGE\ttyfamily}{\thesection}{}{}
+%\titleformat{\paragraph}{\normalfont\large\ttfamily}{\thesection}{}{}
+
 
 % \titlespacing*{\foobar}{left_margin}{top_margin}{bottom_margin}
 
 % Markdown: #
 \titlespacing*{\section}{0pt}{0pt}{5pt}
 % Markdown: ##
-\titlespacing*{\subsection}{0pt}{12pt}{12pt}
+\titlespacing*{\subsection}{0pt}{8pt}{4pt}
 % Markdown: ###
-\titlespacing*{\subsubsection}{0pt}{12pt}{5pt}
+\titlespacing*{\subsubsection}{0pt}{10pt}{2pt}
 % Markdown: -
-\titlespacing*{\itemize}{0pt}{0pt}{0pt}
+\titlespacing*{\itemize}{0pt}{0pt}{2pt}
 % Markdown: plain text
-\titlespacing*{\paragraph}{0pt}{15pt}{10pt}
+\titlespacing*{\paragraph}{0pt}{1pt}{1pt}
 % Markdown: ???
 \titlespacing*{\label}{0pt}{0pt}{0pt}
 
-\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=25pt}
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=12pt}
 
 % tightlist is created by markdown
 \providecommand{\tightlist}{%
-\setlength{\itemsep}{3pt}\setlength{\parskip}{0pt}}
+\setlength{\itemsep}{1.3pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
 $if(title)$
