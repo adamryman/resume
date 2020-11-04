@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 
-sudo apt install -y pandoc
-pdflatex
-texlive
-texlive-latex-extra
-
+sudo apt install -y pandoc texlive texlive-latex-extra bc
+# pdflatex
