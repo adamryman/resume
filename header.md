@@ -14,20 +14,24 @@
 ```
 
 ## Skills
-- Languages: Go (5 years), PHP (3 year), Bash (6 years), Java, Python, Javascript, HTML, CSS, C, C#, Verilog
+- Languages: Go, Python, PHP, Bash, Java, Javascript, HTML, CSS, C, C#, Verilog
 - CI/CD for several teams. Gitlab-CI, Jenkins, Circle-CI, Travis-CI, Azure devops.
-- AWS ECS, EC2, ELB/ALB, S3, Route53, EMR; Google Cloud, Compute, App Engine, Storage, etc.
+- AWS ECS, EC2, ELB/ALB, S3, Route53, EMR, Glue, Athena; Google Cloud, Compute, App Engine, Storage, etc.
 - Utilizing Docker, Gitlab, Terraform, Kafka, Kubernetes, Jira, Confluence
 
 ## Experience
 
+### Senior Software Developer Engineer
+
+***Glympse***, Inc | *Remote* | 2021 - 2022
+
 ### Software Developer
 
-***Volkswagen Automotive Cloud*** | *Remote* | July 2020 - Current
+***Volkswagen Automotive Cloud*** | *Remote* | 2020 - 2021
 
 - Facilitated developer productivity by reducing miscommunication.
 	- Provided structure for developers to define shared terminology.
-	- Clarified goals with key stakeholders; Teams, managers, and directories.
+	- Clarified goals with key stakeholders; Teams, managers, and directors.
 - Fixed bugs and security vulnerabilities Utilizing Azure, Azure Dev Ops, .netFramework, and .netCore
 
 ### Software Engineer
@@ -40,7 +44,7 @@
 - Decommissioned old service-oriented architecture in favor of the more agile monolithic architecture while product market fit is being developed.
 - Migrated service functionality from Golang services to Python
 
-### Software Development Engineer
+### Software Development Engineer II
 
 ***Tune && Branch*** | *Seattle, WA* | 2016 - 2019
 
