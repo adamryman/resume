@@ -1,5 +1,4 @@
-% preamble for all templates
-\documentclass[11pt]{$documentclass$}
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 $if(fontfamily)$
 \usepackage{$fontfamily$}
 $else$
@@ -112,11 +111,13 @@ $endif$
 \setlength{\parindent}{0pt}
 %\setlength{\parskip}{6pt plus 2pt minus 1pt}
 \setlength{\parskip}{0pt}
-%\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
 
 \usepackage{multicol}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 $if(numbersections)$
 \setcounter{secnumdepth}{5}
@@ -153,3 +154,69 @@ $endfor$
 
 % Disable page numbers
 \pagenumbering{gobble}
+% Increase the width of the central column seperator
+\setlength\columnsep{40pt}
+
+% Increase the font size of sections
+\titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}
+\titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
+
+\titlespacing*{\section}{0pt}{10pt}{0pt}
+\titlespacing*{\label}{0pt}{10pt}{10pt}
+\titlespacing*{\subsection}{0pt}{15pt}{10pt}
+\titlespacing*{\subsubsection}{0pt}{15pt}{5pt}
+\titlespacing*{\itemize}{0pt}{0pt}{0pt}
+\titlespacing*{\paragraph}{0pt}{0pt}{0pt}
+
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+
+\begin{document}
+$if(title)$
+\maketitle
+$endif$
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+$for(include-before)$
+$include-before$
+
+$endfor$
+$if(toc)$
+{
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{$toc-depth$}
+\tableofcontents
+}
+$endif$
+
+
+\begin{multicols}{2}
+$body$
+\end{multicols}
+
+$if(natbib)$
+$if(biblio-files)$
+$if(biblio-title)$
+$if(book-class)$
+\renewcommand\bibname{$biblio-title$}
+$else$
+\renewcommand\refname{$biblio-title$}
+$endif$
+$endif$
+\bibliography{$biblio-files$}
+
+$endif$
+$endif$
+$if(biblatex)$
+\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+
+$endif$
+$for(include-after)$
+$include-after$
+
+$endfor$
+\end{document}
