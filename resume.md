@@ -9,34 +9,31 @@ adamryman@gmail.com
 - Software Engineering: Distributed systems, containerization, application metrics, quality assurance, version control
 - CI/CD expertise: Gitlab-CI, Jenkins, Circle-CI, Travis-CI, Azure devops.
 - Cloud: AWS ELB/ALB, S3, Route53, EMR, Glue, Athena; Google Cloud, Compute, App Engine, Storage, etc
-- Tooling: Docker, Gitlab, Terraform, Kafka, Kubernetes, Jira, Confluence
+- Tooling: Docker, Gitlab, Kafka, Kafka-Connect, Terraform, Kubernetes, Jira, Confluence
 - Teamwork: Agile, Working Agreements, OKRs, Documentation
 
 ## Experience
 
 ### Senior Software Developer Engineer
-***Glympse***, Inc | 2021 - Current
+***Glympse, Inc*** | 2021 - Current
 
-- Implemented a data lake pipeline, ingesting raw change events and providing a querable interface to give our customers insights into their data
+- Implemented a data lake pipeline, ingesting raw change events and providing a queryable interface to give our customers insights into their data
 - Created confidence in continuous delivery pipeline by eliminating intermittent issues and improving application visibility
-- Supported current enterprise customers by maintained existing legacy architecture and applications with appropriate incremental improvements
+- Supported current enterprise customers by maintaining existing legacy architecture and applications with appropriate incremental improvements
 
 ### Software Developer
 ***Volkswagen Automotive Cloud*** | 2020 - 2021
 
-- Facilitated developer productivity by reducing miscommunication
-	- Provided structure for developers to define shared terminology
-	- Clarified goals with key stakeholders; Teams, managers, and directors
-- Fixed bugs and security vulnerabilities utilizing Azure, Azure Dev Ops, .netFramework, and .netCore
+- Boosted developer productivity by streamlining communication through providing a framework for clarifying shared terminology and goals
+- Eliminated bugs and security vulnerabilities utilizing Azure, Azure Dev Ops, .netFramework, and .netCore
 
 ### Software Engineer
 
 ***Xinova*** | **Contracted:** Jan 2020 - March 2020
 
 - Investigated and reduced costs on Google Cloud Platform utilizing labels and scaling.
-- Proposed and implemented CI/CD and environment work-flow for early stage product leveraging Github Actions and Jenkins
+- Proposed and implemented CI/CD and environment work-flow for early stage product, leveraging Github Actions and Jenkins
 - Managed technical debt through working with external support engineers for fringe in-house data analytics
-- Migrated service functionality from Golang services to Python
 
 ### Software Development Engineer II
 
