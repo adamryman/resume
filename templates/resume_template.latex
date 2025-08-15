@@ -1,4 +1,5 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+%\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\documentclass[12pt]{article}
 $if(fontfamily)$
 \usepackage{$fontfamily$}
 $else$
@@ -194,9 +195,11 @@ $if(toc)$
 $endif$
 
 
-\begin{multicols}{2}
+% Set number of columns
+%\begin{multicols}{1}
+% Actual body of resume
 $body$
-\end{multicols}
+%\end{multicols}
 
 $if(natbib)$
 $if(biblio-files)$

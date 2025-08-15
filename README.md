@@ -14,6 +14,10 @@ This workflow assumes it is on the Linux platform. Additionally, this workflow r
 - The `multicol` Tex package
 - The `enumitem` Tex package
 
+```
+sudo apt install -y pandoc texlive texlive-latex-extra bc
+```
+
 ## Building
 
 To build, run `make` in this directory. The output files will be in the newly created `build/` directory.

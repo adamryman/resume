@@ -4,68 +4,64 @@ adamryman@gmail.com
 [http://github.com/adamryman](http://github.com/adamryman)
 
 
-## Skills
-- Languages: Go, Python, PHP, Bash, Java, Javascript, HTML, CSS, C, C#, Verilog
-- Software Engineering: Distributed systems, containerization, application metrics, quality assurance, version control
-- CI/CD expertise: Gitlab-CI, Jenkins, Circle-CI, Travis-CI, Azure devops.
-- Cloud: AWS ELB/ALB, S3, Route53, EMR, Glue, Athena; Google Cloud, Compute, App Engine, Storage, etc
-- Tooling: Docker, Gitlab, Kafka, Kafka-Connect, Terraform, Kubernetes, Jira, Confluence
-- Teamwork: Agile, Working Agreements, OKRs, Documentation
+## Summary
 
-## Experience
+Seasoned backend and infrastructure engineer with 8+ years of experience designing scalable systems, enabling developer velocity, and building robust CI/CD pipelines. Proven ability to deliver technical strategy, foster engineering excellence, and own the full developer toolchain lifecycle - from local environments to production. Experienced across cloud platforms (AWS, GCP, Azure), distributed systems, and developer enablement in high-growth, high-scale environments.
 
-### Senior Software Developer Engineer
-***Glympse, Inc*** | 2021 - Current
+## Professional Experience
 
-- Implemented a data lake pipeline, ingesting raw change events and providing a queryable interface to give our customers insights into their data
-- Created confidence in continuous delivery pipeline by eliminating intermittent issues and improving application visibility
-- Supported current enterprise customers by maintaining existing legacy architecture and applications with appropriate incremental improvements
+### **Senior Software Development Engineer**
 
-### Software Developer
-***Volkswagen Automotive Cloud*** | 2020 - 2021
+**Glympse, Inc** | *2021 – Present*
 
-- Boosted developer productivity by streamlining communication through providing a framework for clarifying shared terminology and goals
-- Eliminated bugs and security vulnerabilities utilizing Azure, Azure Dev Ops, .netFramework, and .netCore
+- Designed and led implementation of a data lake pipeline surfacing analytics from 10TB+ per day of raw change events, accelerating insight delivery for enterprise clients
+- Improved CI/CD reliability by eliminating flakiness (60% passrate to 97%), enhancing visibility, and hardening release processes
+- Maintained and modernized legacy architecture to support uptime and performance for (3K+ RPS) mission-critical customer services
+- Acted as force-multiplier via tooling, documentation, and knowledge sharing across engineering
+- Mentored and onboarded new engineers, rapidly ramping them to full productivity through focused guidance and knowledge sharing
 
-### Software Engineer
+### **Senior Software Development Engineer**
 
-***Xinova*** | **Contracted:** Jan 2020 - March 2020
+**Volkswagen Automotive Cloud** | *2020 – 2021*
+
+- Introduced shared terminology and technical frameworks to align developer workflows across teams
+- Hardened platform quality by resolving security and reliability issues using Azure DevOps, .NET Framework, and .NET Core
+
+### Senior Software Development Engineer
+
+***Xinova*** | **Contracted:** *2019 - 2020*
 
 - Investigated and reduced costs on Google Cloud Platform utilizing labels and scaling.
 - Proposed and implemented CI/CD and environment work-flow for early stage product, leveraging Github Actions and Jenkins
-- Managed technical debt through working with external support engineers for fringe in-house data analytics
 
-### Software Development Engineer II
+### **Software Development Engineer II**
 
-***Tune && Branch***  | 2016 - 2019
+**Tune / Branch** | *2016 – 2019*
 
-- Facilitated seamless experience for customers transitioning to Branch by implementing tooling for migrating webhook templates between Tune's and Branch's domain specific languages
-- Contributed to reliability by being on-call for 30K avg ingestion rps distributed system with regular operational overviews
-- Reduced cost by migrating services from dedicated EC2 instances to autoscaling Amazon ECS
-- Improved developer productivity by decreasing time to complete CI/CD jobs for build, test, and deploy utilizing caching, image optimization, and multi stage pipelines
+- Reduced CI/CD build and deployment times by 50% by containerizing, optimizing caching strategies, multi-stage pipelines, and image reuse
+- Led efforts to enable seamless Fortune 500 customer migration between platforms by building DSL-to-DSL webhook translators for 1b+ devices
+- Supported 24/7 operations for a high-scale ingestion system (30K+ RPS), improving observability and incident response
+- Cut infrastructure costs by 20k+ per month by transitioning workloads from EC2 to containerized ECS-based services
 
+### **Co-Creator & Key Contributor**
 
-### Co-Creator && Key Contributor
+**truss** ([github.com/metaverse/truss](https://github.com/metaverse/truss))
 
-***truss*** | *[github.com/metaverse/truss](https://github.com/metaverse/truss)*
+- Go-based microservice scaffolding framework supporting gRPC & HTTP/JSON APIs
+- Enables fast prototyping via codegen for protobuf definitions; adopted in production at Tune and Glympse
 
-- *golang*, *protobuf/gRPC*
-- Rapidly build gRPC&HTTP 1.1/JSON services by generating messages and encode/decode logic from protobuf/gRPC definitions
-- Production usage at Tune and Glympse
+### **Chief Operations Officer**
 
-### Chief Operations Officer
+**StudentRND (501c3)** | *2010 – 2013*
 
-***StudentRND - 501c3*** | *Bellevue, WA* | 2010 - 2013
-
-- Networked with professionals in industry to develop resources for students to design, manufacture, test, & sell experimental products
-- Grew hackathon, CodeDay, from grassroots to more than 35,000 total attendance across more than 350 events since 2011
-- Raised over $50k to operate non-profit endeavors
-- Organized workshops for 30+ students on usage of laser cutters, 3D printers, electronic circuity, various SDKs
+- Scaled CodeDay from grassroots event to 35,000+ attendees across 350+ events
+- Raised $50K+ to support youth STEM education and technical skill development
+- Ran hands-on workshops on laser cutting, 3D printing, electronics, and SDKs
 
 ## Education
 
-### Electrical Engineering B.S.
- ***University of Washington*** | *Seattle, WA* | 2015
+### **B.S., Electrical Engineering**
+*University of Washington, Seattle* | 2015
 
 ## Internships
 
@@ -77,4 +73,12 @@ adamryman@gmail.com
 	- ***BlackRock*** | *Seattle, WA* | Nov 2013 - June 2014
 - **Research Intern** (Python Java Weka)
 	- ***PNNL*** | *Richland, WA* | June 2011 - Aug 2011
+
+## Core Competencies
+
+- **Languages**: Python, Go, PHP, Java, Bash,  JavaScript, HTML, CSS, C, C#, Verilog
+- **Developer Productivity**: CI/CD (Gitlab-CI, Jenkins, CircleCI, Azure DevOps), test automation, dependency management, release tooling
+- **Infrastructure**: Docker, Kafka, Nomad, Kubernetes, Terraform, Gitlab, AWS (ECS, S3, ELB/ALB, Route53, EMR, Glue), GCP (App Engine, Compute, Storage)
+- **Systems**: Distributed architecture, observability, performance optimization, operational excellence, ephemeral dev environments
+- **Collaboration**: Agile, OKRs, working agreements, cross-functional leadership, documentation, mentoring
 
